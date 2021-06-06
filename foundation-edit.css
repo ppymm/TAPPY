@@ -5,6 +5,7 @@ body{
     /* box-shadow: inset 0px 0px 70px rgba(0, 0, 0, 0.8); */
     padding: 0%;
     margin: 0%;
+    background: linear-gradient(90deg, #c57242 , bisque);
 }
 
 /* topic */
@@ -92,6 +93,8 @@ body{
     box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
     animation-duration: 2s;
     transition-duration: 0.5s;
+    border-radius: 30px;
+
     box-shadow: 0 0 10px #BF8B66,
     0 0 40px #BF8B66,
     0 0 80px #BF8B66,
@@ -189,6 +192,8 @@ h3{
     box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
     animation-duration: 2s;
     transition-duration: 0.5s;
+    border-radius: 30px;
+
     box-shadow: 0 0 10px #BF8B66,
     0 0 40px #BF8B66,
     0 0 80px #BF8B66,
@@ -271,12 +276,15 @@ h3{
     max-width: 1200px;
     margin: 0px auto;
     margin-top: 50px;
+
     transition-duration: 0.5s;
 }
 .container3:hover{
     box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
     animation-duration: 2s;
     transition-duration: 0.5s;
+    border-radius: 30px;
+
     box-shadow: 0 0 10px #BF8B66,
     0 0 40px #BF8B66,
     0 0 80px #BF8B66,
@@ -371,6 +379,7 @@ h3{
     box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
     animation-duration: 2s;
     transition-duration: 0.5s;
+    border-radius: 30px;
     box-shadow: 0 0 10px #BF8B66,
     0 0 40px #BF8B66,
     0 0 80px #BF8B66,
