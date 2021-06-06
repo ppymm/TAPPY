@@ -17,9 +17,21 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     height: 240px;
+    animation: animate 5s linear infinite;
 }
-
-@media screen and (max-width: 425px) {
+@keyframes animate{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,100%
+    {
+        color: #ff8c3b;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65.1%,80.1%,90%,92.1%,100%{
+       box-shadow:  0 0 10px #ff8c3b,
+               0 0 40px #ff8c3b,
+               0 0 80px #ff8c3b,
+               0 0 160px #ff8c3b;
+    }
+}
+    @media screen and (max-width: 425px) {
     .main-topic{
         height: 140px;
         width: 600px;
@@ -73,6 +85,18 @@ body{
     margin-top: 50px;
     /* border-radius: 30px; */
     /* box-shadow: 0 5px 15px rgba(0, 0, 0, 1); */
+    transition-duration: 0.5s;
+
+}
+.container1:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+    animation-duration: 2s;
+    transition-duration: 0.5s;
+    box-shadow: 0 0 10px #BF8B66,
+    0 0 40px #BF8B66,
+    0 0 80px #BF8B66,
+    0 0 160px #BF8B66;
+
 }
 
 .list-box1{
@@ -93,6 +117,7 @@ body{
     object-fit: cover;
     border-radius: 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+    
 }
 
 @media screen and (max-width: 425px) {
@@ -158,8 +183,18 @@ h3{
     max-width: 1200px;
     margin: 0px auto;
     margin-top: 50px;
+    transition-duration: 0.5s;
 }
+.container2:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+    animation-duration: 2s;
+    transition-duration: 0.5s;
+    box-shadow: 0 0 10px #BF8B66,
+    0 0 40px #BF8B66,
+    0 0 80px #BF8B66,
+    0 0 160px #BF8B66;
 
+}
 @media screen and (max-width: 425px) {
     .container2{
         display: flex;
@@ -236,8 +271,18 @@ h3{
     max-width: 1200px;
     margin: 0px auto;
     margin-top: 50px;
+    transition-duration: 0.5s;
 }
+.container3:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+    animation-duration: 2s;
+    transition-duration: 0.5s;
+    box-shadow: 0 0 10px #BF8B66,
+    0 0 40px #BF8B66,
+    0 0 80px #BF8B66,
+    0 0 160px #BF8B66;
 
+}
 @media screen and (max-width: 425px) {
     .container3{
         display: flex;
@@ -320,6 +365,17 @@ h3{
     margin: 0px auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    transition-duration: 0.5s; 
+}
+.container4:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+    animation-duration: 2s;
+    transition-duration: 0.5s;
+    box-shadow: 0 0 10px #BF8B66,
+    0 0 40px #BF8B66,
+    0 0 80px #BF8B66,
+    0 0 160px #BF8B66;
+
 }
 
 @media screen and (max-width: 425px) {
