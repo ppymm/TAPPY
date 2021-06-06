@@ -2,12 +2,14 @@ body{
 
     padding: 0px;
     margin: 0px;
-background-color:bisque ;
-font-family: 'Mali', cursive;
+    background: linear-gradient(90deg, #fca776 , bisque);
+
+    font-family: 'Mali', cursive;
 }
 @media screen and (max-width:425px) {
     body{
         width: 100%;
+        
         }
 }
 
@@ -129,6 +131,8 @@ position:  sticky;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
     animation-duration: 2s;
     transition-duration: 0.5s;
+    border-radius: 30px;
+
     box-shadow: 0 0 10px #BF8B66,
     0 0 40px #BF8B66,
     0 0 80px #BF8B66,
@@ -162,7 +166,7 @@ position:  sticky;
 @media screen and (max-width:425px){
     .text2{
      font-size: 9px;
-    margin-left: 10px;
+    margin-left: 30px;
     margin-top: 10px;
     margin-right: 5px;
      display: flex;
@@ -266,6 +270,8 @@ position:  sticky;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
     animation-duration: 2s;
     transition-duration: 0.5s;
+    border-radius: 30px;
+
     box-shadow:0 0 10px #BF8B66,
     0 0 40px #BF8B66,
     0 0 80px #BF8B66,
@@ -327,10 +333,12 @@ position:  sticky;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
     animation-duration: 2s;
     transition-duration: 0.5s;
+    border-radius: 30px;
+
     box-shadow:  0 0 10px #BF8B66,
-    0 0 40px #BF8B66,
-    0 0 80px #BF8B66,
-    0 0 160px #BF8B66;
+                 0 0 40px #BF8B66,
+                 0 0 80px #BF8B66,
+                 0 0 160px #BF8B66;
 }
 @media screen and (max-width:425px){
     .container4{
